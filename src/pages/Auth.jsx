@@ -1,4 +1,4 @@
-const SignIn = () => {
+const Auth = () => {
   return (
     <div>
       <h1 className="w-fit mx-auto text-6xl">Sign In</h1>
@@ -6,4 +6,4 @@ const SignIn = () => {
   );
 };
 
-export default SignIn;
+export default Auth;
