@@ -1,1 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Oxygen:wght@300;400;700&family=Quattrocento+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
 @import "tailwindcss";
+
+@theme {
+  --font-attention: "Hammersmith One", sans-serif;
+  --font-heading: "Quattrocento Sans", sans-serif;
+  --font-body: "Oxygen", sans-serif;
+}
+
+:root {
+  --prussian-blue: #0b1c30;
+  --deep-saffron: #fe9935;
+  --navajo-white: #fddeb4;
+  --yale-blue: #013e6d;
+  --off-white: #f1e4d8;
+  --ink-black: #0c0707;
+}
