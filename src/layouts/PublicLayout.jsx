@@ -3,12 +3,12 @@ import Navbar from "../components/Navbar";
 
 const PublicLayout = () => {
   return (
-    <>
+    <div className="flex min-h-dvh flex-col">
       <Navbar />
-      <main>
+      <main className="flex flex-1 flex-col">
         <Outlet />
       </main>
-    </>
+    </div>
   );
 };
 

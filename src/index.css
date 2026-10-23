@@ -16,3 +16,19 @@
   --off-white: #f1e4d8;
   --ink-black: #0c0707;
 }
+
+button {
+  cursor: pointer;
+}
+
+.logo {
+  letter-spacing: .01em;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.linkActive {
+  opacity: 1;
+  border-bottom: 2px solid currentColor;
+  color: var(--deep-saffron);
+}
