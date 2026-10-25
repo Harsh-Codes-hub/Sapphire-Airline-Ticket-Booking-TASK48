@@ -3,7 +3,7 @@ import Navbar from "../components/Navbar";
 
 const PublicLayout = () => {
   return (
-    <div className="flex min-h-dvh flex-col">
+    <div className="flex min-h-dvh flex-col overflow-hidden">
       <Navbar />
       <main className="flex flex-1 flex-col">
         <Outlet />

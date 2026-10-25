@@ -1,11 +1,11 @@
 const searchBar = () => {
   return (
-    <form className="h-full overflow-hidden flex rounded-lg">
+    <form className="h-10 w-60 flex rounded-sm">
       <input
         type="text"
         name=""
         id=""
-        className="bg-(--off-white) text-(--prussian-blue) px-2 font-body"
+        className="bg-(--off-white) text-(--prussian-blue) px-2 font-body flex-1"
         placeholder="Search..."
       />
       <button
