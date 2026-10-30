@@ -1,7 +1,7 @@
 const NormalLinks = ({ to, message }) => {
   return (
-    <li className="">
-      <a href={to}><i className={message}></i></a>
+    <li>
+      <a href={to} className="hover:text-(--deep-saffron)"><i className={message}></i></a>
     </li>
   );
 };

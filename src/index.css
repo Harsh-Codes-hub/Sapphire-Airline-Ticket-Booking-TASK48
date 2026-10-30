@@ -41,5 +41,11 @@ button {
 
 .footerHeadline {
   letter-spacing: .01em;
-  font-weight: 400;
+  font-weight: 600;
+}
+
+.bloom {
+  transform: scale(1.1);
+  backdrop-filter: drop-shadow(1px, 1px, 10px, var(--deep-saffron));
+  text-shadow: 5px 5px 10px red;
 }
