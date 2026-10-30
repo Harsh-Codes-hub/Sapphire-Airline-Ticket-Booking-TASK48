@@ -1,14 +1,10 @@
 import { NavLink } from "react-router-dom";
 
-NavLink;
-
-const NavLinks = ({ to, message }) => {
+const NavLinks = ({ to, message, activeClass, inActiveClass }) => {
   return (
     <NavLink
       to={to}
-      className={({ isActive}) =>
-        isActive ? "linkActive" : "opacity-75 border-b-2 border-b-transparent"
-      }
+      className={({ isActive }) => (isActive ? activeClass : inActiveClass)}
     >
       {message}
     </NavLink>

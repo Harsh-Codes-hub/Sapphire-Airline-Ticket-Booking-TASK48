@@ -8,14 +8,14 @@ const Navbar = () => {
   return (
     <header className="bg-(--prussian-blue) relative">
       <Container>
-        <nav className="py-4 flex items-center lg:flex-col lg:items-start">
+        <nav className="py-6 flex items-center lg:flex-col lg:items-start">
           <h1 className="font-attention text-4xl text-(--navajo-white) md:text-5xl logo">
             Sapphire
           </h1>
           <div className="hidden text-(--navajo-white) lg:flex mt-4 w-full">
             <ul className="flex items-center text-2xl font-heading gap-8 ml-6 font-bold">
               {routeData.map(({ to, message }) => (
-                <NavLinks to={to} message={message} />
+                <NavLinks to={to} message={message} activeClass={"navLinkActive"} inActiveClass={"navLinkInActive"}/>
               ))}
             </ul>
             <div className="flex justify-between items-center ml-auto gap-4">

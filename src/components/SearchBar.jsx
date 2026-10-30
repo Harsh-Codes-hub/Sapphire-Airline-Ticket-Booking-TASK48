@@ -1,6 +1,6 @@
 const searchBar = () => {
   return (
-    <form className="h-10 w-60 flex rounded-sm">
+    <form className="h-10 w-60 flex rounded-sm overflow-hidden">
       <input
         type="text"
         name=""

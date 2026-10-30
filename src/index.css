@@ -27,8 +27,19 @@ button {
   font-weight: 400;
 }
 
-.linkActive {
+.navLinkActive {
   opacity: 1;
   border-bottom: 2px solid currentColor;
   color: var(--deep-saffron);
+}
+
+.navLinkInActive {
+  opacity: 0.75;
+  border-bottom-color: transparent;
+  border-bottom: 2px;  
+}
+
+.footerHeadline {
+  letter-spacing: .01em;
+  font-weight: 400;
 }
