@@ -6,23 +6,27 @@ import NormalLinks from "./NormalLinks";
 
 const Footer = () => {
   return (
-    <footer className="w-full bg-(--prussian-blue)">
+    <footer className="w-full bg-(--prussian-blue) h-fit">
       <Container>
-        <main className="grid grid-cols-5 gap-6 py-8">
-          <section>
-            <h2 className="font-attention text-5xl text-(--navajo-white) logo mt-6 mr-4">
-              Sapphire
-            </h2>
-          </section>
-          {footerRouteData.map(({ headline, links }) => (
-            <FooterLinkSection headline={headline} links={links} />
+        <h2 className="font-attention text-5xl text-(--navajo-white) logo mt-8">
+          Sapphire
+        </h2>
+        <main className="grid grid-rows-1 sm:grid-cols-2 gap-8 py-6 px-4 lg:grid-cols-4 pb-8">
+          {footerRouteData.map(({ headline, links }, index) => (
+            <FooterLinkSection headline={headline} links={links} key={`sec-${index}`}/>
           ))}
           <section>
             <h3 className="text-(--navajo-white) font-heading text-3xl footerHeadline">
               Contact Us
             </h3>
-            <ul className="flex items-start gap-6 text-(--off-white) text-3xl mt-2 px-2 opacity-95">
-              {contactRouteData.map(({to, message}, index) => <NormalLinks key={`icon-_link-${index}`} to={to} message={message}/>)}
+            <ul className="flex items-start gap-6 text-(--off-white) text-3xl mt-2 px-4 opacity-85">
+              {contactRouteData.map(({ to, message }, index) => (
+                <NormalLinks
+                  key={`icon-_link-${index}`}
+                  to={to}
+                  message={message}
+                />
+              ))}
             </ul>
           </section>
         </main>
