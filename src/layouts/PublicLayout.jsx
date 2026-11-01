@@ -6,7 +6,7 @@ const PublicLayout = () => {
   return (
     <div className="flex min-h-dvh flex-col overflow-hidden">
       <Navbar />
-      <main className="flex flex-1 flex-col">
+      <main className="flex flex-1 flex-col bg-(--off-white)">
         <Outlet />
       </main>
       <Footer />

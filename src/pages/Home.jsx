@@ -1,10 +1,32 @@
+import Container from "../components/Container";
 
 const Home = () => {
   return (
-    <div>
-      <h1 className="w-fit mx-auto text-6xl">Home</h1>
-    </div>
-  )
-}
+    <>
+      <section className="relative isolate min-h-dvh">
+        <video
+          autoPlay
+          muted
+          loop
+          playsInline
+          className="absolute inset-0 -z-10 hidden size-full object-cover md:block"
+        >
+          <source src="/video/hero-bg.mp4" type="video/mp4" />
+        </video>
 
-export default Home
+        <div className="absolute inset-0 -z-10 size-full object-cover md:hidden">
+          <img src="" alt="" />
+        </div>
+
+        <Container>
+        </Container>
+      </section>
+      <section className="">
+        <Container>
+        </Container>
+      </section>
+    </>
+  );
+};
+
+export default Home;

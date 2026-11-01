@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Oxygen:wght@300;400;700&family=Quattrocento+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Oxygen:wght@300;400;700&family=Quattrocento+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 
 @import "tailwindcss";
 
@@ -22,7 +22,7 @@ button {
 }
 
 .logo {
-  letter-spacing: .01em;
+  letter-spacing: 0.01em;
   text-transform: uppercase;
   font-weight: 400;
 }
@@ -36,11 +36,11 @@ button {
 .navLinkInActive {
   opacity: 0.75;
   border-bottom-color: transparent;
-  border-bottom: 2px;  
+  border-bottom: 2px;
 }
 
 .footerHeadline {
-  letter-spacing: .01em;
+  letter-spacing: 0.01em;
   font-weight: 600;
 }
 
@@ -48,4 +48,8 @@ button {
   transform: scale(1.1);
   backdrop-filter: drop-shadow(1px, 1px, 10px, var(--deep-saffron));
   text-shadow: 5px 5px 10px red;
+}
+
+.bg {
+  background: linear-gradient(120deg, #0b1c30, #013e6d);
 }
