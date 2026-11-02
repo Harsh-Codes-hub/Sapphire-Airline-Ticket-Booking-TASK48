@@ -14,16 +14,20 @@ const Home = () => {
           <source src="/video/hero-bg.mp4" type="video/mp4" />
         </video>
 
-        <div className="absolute inset-0 -z-10 size-full object-cover md:hidden">
-          <img src="" alt="" />
-        </div>
+        <video
+          autoPlay
+          muted
+          loop
+          playsInline
+          className="absolute inset-0 size-full object-cover md:hidden"
+        >
+          <source src="/video/hero-bg-m.mp4" type="video/mp4" />
+        </video>
 
-        <Container>
-        </Container>
+        <Container></Container>
       </section>
       <section className="">
-        <Container>
-        </Container>
+        <Container></Container>
       </section>
     </>
   );
