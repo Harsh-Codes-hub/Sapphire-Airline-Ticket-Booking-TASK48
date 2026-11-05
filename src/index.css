@@ -44,12 +44,15 @@ button {
   font-weight: 600;
 }
 
-.bloom {
-  transform: scale(1.1);
-  backdrop-filter: drop-shadow(1px, 1px, 10px, var(--deep-saffron));
-  text-shadow: 5px 5px 10px red;
+
+.hero-bg-overlay-gradient {
+  background: 
+  linear-gradient(to top, black 5%, transparent 25%),
+  radial-gradient(transparent 60%, black),
+  linear-gradient(to top, rgb(21, 43, 116)),
+  linear-gradient(to top, rgb(37, 37, 218), var(--prussian-blue), var(--deep-saffron));
+  opacity: 0.8;
+  mix-blend-mode: soft-light;
+  backdrop-filter: blur(10px);
 }
 
-.bg {
-  background: linear-gradient(120deg, #0b1c30, #013e6d);
-}
