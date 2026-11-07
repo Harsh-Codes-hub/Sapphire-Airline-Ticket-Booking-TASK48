@@ -87,6 +87,30 @@ const Home = () => {
           </div>
         </Container>
       </section>
+      <section className="gradient-bg py-4">
+        <Container>
+          <div className="relative z-10 w-full flex flex-col items-center h-40 justify-center">
+            <h4 className="font-heading text-(--navajo-white) text-4xl md:text-5xl font-semibold">Ready to Take Off</h4>
+            <button className="bg-(--navajo-white) text-(--prussian-blue) py-2 px-3 text-3xl font-heading uppercase font-bold rounded-sm shadow-lg -mt-6 hover:mt-0 mix-blend-soft-light" type="button">Sign In</button>
+          </div>
+        </Container>
+      </section>
+      <section className="bg-(--navajo-white)">
+        <Container>
+          <div className="grid grid-rows-[auto_1fr] grid-cols-[auto_1fr] items-center py-4 px-2 gap-3">
+              <i className="ri-double-quotes-l text-5xl col-start-1 rows-start-1 text-(--prussian-blue)"></i>
+              <p className="text-2xl md:text-3xl font-body quote-box-center col-start-1 row-start-2 col-span-2 text-center text-(--yale-blue) tracking-wide">Experience the skies like never before with <span className="font-attention tracking-tight font-bold">SAPPHIRE</span> - Where luxury meets convenience.</p>
+              <i className="ri-double-quotes-r text-5xl col-start-2 row-start-3 justify-self-end text-(--prussian-blue)"></i>
+          </div>
+        </Container>
+      </section>
+      <section>
+        <Container>
+          <div className="h-50">
+
+          </div>
+        </Container>
+      </section>
     </>
   );
 };
