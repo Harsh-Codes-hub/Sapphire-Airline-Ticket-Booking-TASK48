@@ -15,10 +15,10 @@ const Navbar = () => {
           <div className="hidden text-(--navajo-white) lg:flex mt-1 w-full">
             <ul className="flex items-center text-2xl font-heading gap-8 ml-6 font-bold">
               {routeData.map(({ to, message }) => (
-                <NavLinks to={to} message={message} activeClass={"navLinkActive"} inActiveClass={"navLinkInActive"}/>
+                <NavLinks to={to} message={message} activeClass={"navLinkActive"} inActiveClass={"navLinkInActive"} key={`nav-${message}`}/>
               ))}
             </ul>
-            <div className="flex justify-between items-center ml-auto gap-4">
+            <div className="flex justify-between items-center ml-auto gap-6">
               <SearchBar />
               <button
                 type="button"

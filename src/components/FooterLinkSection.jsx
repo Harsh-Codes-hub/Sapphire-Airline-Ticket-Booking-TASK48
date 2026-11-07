@@ -8,7 +8,7 @@ const FooterLinkSection = ({ headline, links }) => {
       </h3>
       <ul className="flex flex-col items-start gap-2 text-(--off-white) text-xl mt-2 px-4 opacity-85">
         {links.map(({ to, message }) => (
-          <NavLinks to={to} message={message} activeClass={"footerLinkActive"} inActiveClass={"footerLinkInActive"}/>
+          <NavLinks to={to} message={message} activeClass={"footerLinkActive"} inActiveClass={"footerLinkInActive"} key={`footer-nav-${message}`}/>
         ))}
       </ul>
     </section>

@@ -7,7 +7,7 @@ const SideNav = () => {
     <nav className="bg-(--prussian-blue) text-(--navajo-white) w-full absolute py-4 px-4 translate-x-full lg:hidden  lg:pointer-events-none">
       <ul className="flex flex-col gap-4 text-2xl mb-4">
         {routeData.map(({ to, message }) => (
-          <NavLinks to={to} message={message} />
+          <NavLinks to={to} message={message} key={`nav-${message}`}/>
         ))}
       </ul>
       <div className="flex text-lg justify-between">
