@@ -11,7 +11,7 @@ const Footer = () => {
         <h2 className="font-attention text-5xl text-(--navajo-white) logo mt-8">
           Sapphire
         </h2>
-        <main className="grid grid-rows-1 sm:grid-cols-2 gap-8 py-6 px-4 lg:grid-cols-4 pb-8">
+        <main className="relative grid grid-rows-1 sm:grid-cols-2 gap-8 py-6 px-4 lg:grid-cols-4 pb-8">
           {footerRouteData.map(({ headline, links }, index) => (
             <FooterLinkSection headline={headline} links={links} key={`sec-${index}`}/>
           ))}
@@ -29,6 +29,7 @@ const Footer = () => {
               ))}
             </ul>
           </section>
+          <button type="button" className="footer-to-top"><i className="ri-arrow-up-long-fill text-3xl font-black"></i></button>
         </main>
       </Container>
     </footer>
