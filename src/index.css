@@ -91,3 +91,25 @@ button {
     transform: translateX(-50%);
   }
 }
+
+.base-bg {
+  background: linear-gradient(to bottom, var(--off-white), var(--navajo-white));
+}
+
+.flight-card-heading {
+  color: var(--navajo-white);
+  font-family: var(--font-heading);
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: .01em;
+  background-color: var(--prussian-blue);
+  padding-block: 4px;
+}
+
+.flight-card-body {
+  padding-block: 8px;
+}
+
+.flight-card-bg {
+  background: linear-gradient(to bottom, var(--off-white), var(--off-white), var(--navajo-white));
+}
