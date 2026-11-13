@@ -136,3 +136,7 @@ button {
   border-radius: 999px;
   color: var(--navajo-white);
 }
+
+.icon-shadow {
+  filter: drop-shadow(2px 3px 1px var(--deep-saffron));
+}
