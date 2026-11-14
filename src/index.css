@@ -44,7 +44,6 @@ button {
   font-weight: 600;
 }
 
-
 .hero-bg-overlay-gradient {
   background: 
   linear-gradient(to top, black 5%, transparent 25%),
@@ -139,4 +138,15 @@ button {
 
 .icon-shadow {
   filter: drop-shadow(2px 3px 1px var(--deep-saffron));
+}
+
+.about-bg-overlay-gradient {
+  background: 
+  linear-gradient(to top, black 5%, transparent 25%),
+  radial-gradient(transparent 60%, black),
+  linear-gradient(to top, rgb(21, 43, 116)),
+  linear-gradient(to top, rgb(37, 37, 218), var(--prussian-blue), var(--deep-saffron));
+  opacity: 0.8;
+  mix-blend-mode: soft-light;
+  backdrop-filter: blur(10px);
 }

@@ -53,7 +53,7 @@ const Home = () => {
             <span className="text-(--navajo-white) text-5xl md:text-6xl font-semibold scale-75 sm:scale-85 md:scale-110">
               Welcome to
             </span>
-            <span className="text-(--deep-saffron) text-7xl md:text-9xl font-black headline-stretch scale-95 sm:scale-110 md:scale-140 my-0 md:my-2">
+            <span className="text-(--deep-saffron) text-7xl md:text-9xl font-black scale-95 sm:scale-110 md:scale-140 my-0 md:my-2">
               SAPPHIRE
             </span>
             <span className="text-(--navajo-white) text-5xl md:text-6xl font-semibold scale-75 sm:scale-85 md:scale-110">
