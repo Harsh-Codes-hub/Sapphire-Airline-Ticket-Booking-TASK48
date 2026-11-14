@@ -67,10 +67,9 @@ const Home = () => {
           <div className="flex flex-col justify-between gap-8 md:gap-10 py-10">
             <div>
               <article className="text-center">
-                <h4 className="font-heading font-semibold text-5xl md:text-7xl uppercase tracking-tighter mb-4 text-(--yale-blue)">
+                <h4 className="font-heading font-semibold text-4xl md:text-7xl uppercase tracking-tighter mb-4 text-(--yale-blue) w-fit mx-auto border-b-2 border-(--yale-blue)">
                   About Us
                 </h4>
-                <hr className="text-(--yale-blue) w-60 md:w-100 mx-auto -mt-3 mb-4 border" />
                 <p className="font-body tracking-wide text-lg md:text-xl text-(--yale-blue)">
                   <span className="font-extrabold tracking-tight">
                     SAPPHIRE
@@ -109,10 +108,10 @@ const Home = () => {
           <div className="grid grid-rows-[auto_1fr] grid-cols-[auto_1fr] items-center py-4 px-2 gap-3">
             <i className="ri-double-quotes-l text-5xl col-start-1 rows-start-1 text-(--prussian-blue)"></i>
             <p className="text-2xl md:text-3xl font-body quote-box-center col-start-1 row-start-2 col-span-2 text-center text-(--yale-blue) tracking-wide">
-              Experience the skies like never before with{" "}
+              Experience the skies like never before with
               <span className="font-attention tracking-tight font-bold">
                 SAPPHIRE
-              </span>{" "}
+              </span>
               - Where luxury meets convenience.
             </p>
             <i className="ri-double-quotes-r text-5xl col-start-2 row-start-3 justify-self-end text-(--prussian-blue)"></i>
