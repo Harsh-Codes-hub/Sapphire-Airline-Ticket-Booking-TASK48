@@ -8,7 +8,7 @@ const ContactInfoCard = ({ icon, headline, description }) => {
         </header>
         <ul className="pl-2">
           {description.map((line) => (
-            <li className="font-body text-lg text-(--prussian-blue)/75">
+            <li key={`${line}`} className="font-body text-lg text-(--prussian-blue)/75">
               <p>{line}</p>
             </li>
           ))}
