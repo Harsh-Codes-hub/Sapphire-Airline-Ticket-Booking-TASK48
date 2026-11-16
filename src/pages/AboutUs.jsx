@@ -3,6 +3,9 @@ import bgImg1 from "../assets/images/airline/sapphire-airplane.jpg";
 import avatar from "../assets/images/avatar/avatar.jpg";
 import JourneyCard from "../components/JourneyCard";
 import journeyData from "../data/journeyData";
+import serviceData2 from "../data/serviceData2";
+import ServiceCard from "../components/ServiceCard"
+
 
 const AboutUs = () => {
   return (
@@ -45,7 +48,7 @@ const AboutUs = () => {
             </p>
           </div>
         </section>
-        <section className="mt-6">
+        <section className="mt-8">
           <h3 className="font-heading font-semibold text-4xl md:text-6xl uppercase tracking-tighter mb-6 text-(--yale-blue) w-fit mx-auto border-b-2 border-(--yale-blue)">
             Our Journey
           </h3>
@@ -54,6 +57,19 @@ const AboutUs = () => {
               <JourneyCard key={`journeyCardID-${journey.id}`} {...journey} />
             ))}
           </ul>
+        </section>
+        <section className="mt-8">
+          <h3 className="font-heading font-semibold text-4xl md:text-6xl tracking-tighter mb-6 text-(--yale-blue) w-fit mx-auto border-b-2 border-(--yale-blue) capitalize whitespace-nowrap">
+            Why SAPPHIRE
+          </h3>
+          <ul className="grid grid-cols-1 grid-rows-4 sm:grid-rows-2 lg:grid-rows-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 place-items-center">
+            {serviceData2.map((service) => <ServiceCard key={`ServiceCardID-${service.id}`} {...service} />)}
+          </ul>
+        </section>
+        <section className="my-12 flex justify-center items-center">
+            <button type="button" className="font-heading text-3xl bg-(--prussian-blue) text-(--navajo-white) py-4 px-6 rounded-full font-semibold shadow-lg">
+              Get in Touch
+            </button>
         </section>
       </Container>
     </section>
