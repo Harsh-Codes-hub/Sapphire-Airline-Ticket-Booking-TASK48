@@ -10,7 +10,7 @@ const Services = () => {
       <section>
         <Container>
           <section className="mt-25 md:mt-45 pt-4 md:pt-0">
-            <h3 className="font-heading font-semibold text-4xl md:text-6xl uppercase tracking-tighter mb-6 text-(--yale-blue) text-center w-fit mx-auto border-b-2 border-(--yale-blue)">
+            <h3 className="font-heading font-semibold text-4xl md:text-6xl tracking-tighter mb-6 text-(--yale-blue) text-center w-fit mx-auto border-b-2 border-(--yale-blue) capitalize">
               Our Services
             </h3>
             <ul className="grid grid-cols-1 grid-rows-6 sm:grid-cols-2 sm:grid-rows-3 md:grid-cols-3 md:grid-rows-2 gap-5 place-items-center">
@@ -24,7 +24,7 @@ const Services = () => {
       <section>
         <Container>
           <section className="mt-15 md:mt-35 mb-10">
-            <h3 className="font-heading font-semibold text-4xl md:text-6xl uppercase tracking-tighter mb-8 text-(--yale-blue) text-center w-fit mx-auto border-b-2 border-(--yale-blue)">
+            <h3 className="font-heading font-semibold text-4xl md:text-6xl tracking-tighter mb-8 text-(--yale-blue) text-center w-fit mx-auto border-b-2 border-(--yale-blue) capitalize">
               Legal Information
             </h3>
             <ul className="flex flex-col gap-4">

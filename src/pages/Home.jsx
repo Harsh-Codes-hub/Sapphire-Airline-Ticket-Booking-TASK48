@@ -67,7 +67,7 @@ const Home = () => {
           <div className="flex flex-col justify-between gap-8 md:gap-10 py-10">
             <div>
               <article className="text-center">
-                <h4 className="font-heading font-semibold text-4xl md:text-6xl uppercase tracking-tighter mb-4 text-(--yale-blue) w-fit mx-auto border-b-2 border-(--yale-blue)">
+                <h4 className="font-heading font-semibold text-4xl md:text-6xl tracking-tighter mb-4 text-(--yale-blue) w-fit mx-auto border-b-2 border-(--yale-blue) capitalize">
                   About Us
                 </h4>
                 <p className="font-body tracking-wide text-lg md:text-xl text-(--yale-blue)">

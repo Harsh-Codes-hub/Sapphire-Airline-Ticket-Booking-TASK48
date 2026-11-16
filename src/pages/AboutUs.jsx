@@ -49,7 +49,7 @@ const AboutUs = () => {
           </div>
         </section>
         <section className="mt-8">
-          <h3 className="font-heading font-semibold text-4xl md:text-6xl uppercase tracking-tighter mb-6 text-(--yale-blue) w-fit mx-auto border-b-2 border-(--yale-blue)">
+          <h3 className="font-heading font-semibold text-4xl md:text-6xl tracking-tighter mb-6 text-(--yale-blue) w-fit mx-auto border-b-2 border-(--yale-blue) capitalize">
             Our Journey
           </h3>
           <ul className="grid grid-cols-1 grid-rows-4 md:grid-cols-2 md:grid-rows-2 gap-4 place-items-center">
