@@ -1,5 +1,6 @@
 import Container from "../components/Container";
 import FlightCard from "../components/FlightCard";
+import flightsData from "../data/flightsData";
 
 const Flight = () => {
   return (
@@ -17,11 +18,7 @@ const Flight = () => {
               <h3>Action</h3>
             </header>
             <ul className="list-none flex flex-col mt-4 gap-4 md:gap-6 overflow-auto">
-              <FlightCard />
-              <FlightCard />
-              <FlightCard />
-              <FlightCard />
-              <FlightCard />
+              {flightsData.map((flight) => <FlightCard key={flight.id} {...flight}/>)}
             </ul>
           </section>
         </Container>
